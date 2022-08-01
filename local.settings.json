@@ -1,13 +1,15 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=udaproject2functionapp;AccountKey=HHnc8a5kzByBnWFR4DUbjJJId6FMSnH+exSdpQj1ZY4KCH+YvMNHJUjZzmLkmPbURkZDTUUeWO64+ASt1nu9aA==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "FUNCTIONS_EXTENSION_VERSION": "~4",
     "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=udaproject2functionapp;AccountKey=HHnc8a5kzByBnWFR4DUbjJJId6FMSnH+exSdpQj1ZY4KCH+YvMNHJUjZzmLkmPbURkZDTUUeWO64+ASt1nu9aA==;EndpointSuffix=core.windows.net",
     "WEBSITE_CONTENTSHARE": "udaproject2functionappcc38ed",
-    "MyDbConnection": "mongodb://udaproject2cosmos:9d6BxN22F3kgXbEKxPsHh8eY1FJA0Z5xIVdguHfBnvgfUeEiOrIi9KFU02s9ZLMkcek0N5IUWAjfgtLb7hCeNg==@udaproject2cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@udaproject2cosmos@",
+    "MyDbConnection": "mongodb://udaproject2db:hsZhWMKiOIu6e3rTdyEHX6GDMjycybBY3xd8RthWxZH80JhRy9bEMoCG30KfMC6G3MTJhmsDcPyvPTToVqkj2A==@udaproject2db.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@udaproject2db@",
     "APPINSIGHTS_INSTRUMENTATIONKEY": "24a853b0-c08d-48fe-86cd-e08952d004e4",
-    "AzureWebJobs.getAdvertisement.Disabled": "true"
+    "AzureWebJobs.getAdvertisement.Disabled": "false",
+    "AzureWebJobs.getPost.Disabled": "true",
+    "AzureWebJobs.get.Disabled": "true"
   }
 }
